@@ -105,8 +105,8 @@ end
 function navcomp:GetSectorNote (s1)
 	if s1 then
 	local sysId = GetSystemID (s1)
-		if SystemNotes then
-			return SystemNotes [sysId][s1]
+		if SystemNotes[sysId] then
+			return SystemNotes[sysId][s1] or ""
 		else return ""
 		end
 	else
