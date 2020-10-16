@@ -1,7 +1,7 @@
 --[[
 	Navigational Computer
 	Author: Keller
-	Modified by Rio
+	BugFix by Rio
 ]]
 declare ("navcomp", {})
 navcomp.version = "1.7.4"
