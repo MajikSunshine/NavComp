@@ -4,7 +4,7 @@
 	BugFix by Rio
 ]]
 declare ("navcomp", {})
-navcomp.version = "1.7.4"
+navcomp.version = "1.7.5"
 dofile ("data/data.lua")
 dofile ("data/data-star.lua")
 dofile ("plotter/comparators.lua")

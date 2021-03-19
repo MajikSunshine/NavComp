@@ -4,7 +4,11 @@
 navcomp.ui = {}
 navcomp.ui.hsize = gkinterface.GetXResolution () / 900
 navcomp.ui.vsize = gkinterface.GetYResolution () / 600
-navcomp.ui.font = 12 * navcomp.ui.vsize
+if Platform == "Android" then
+navcomp.ui.font = 23* navcomp.ui.vsize
+else
+	navcomp.ui.font = 16 * navcomp.ui.vsize
+end
 navcomp.ui.fgcolor = "200 200 50"
 navcomp.ui.progress = nil
 navcomp.ui.evasionIndicator = nil
