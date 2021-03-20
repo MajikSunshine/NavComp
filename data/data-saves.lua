@@ -56,7 +56,7 @@ function navcomp.data:SaveStormSectors ()
 		local charId = navcomp.data.id
 		SaveSystemNotes (spickle ({storms=navcomp.data.stormSectors, hive=navcomp.data.botSectors, wormholes=navcomp.data.whSectors}), charId)
 		navcomp.data.isStormDataSaved = true
-		purchaseprint ("Data Uploaded")
+		HUD:PrintSecondaryMissionMsg("Data Uploaded")
 	end
 end
 
